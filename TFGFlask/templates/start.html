@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+	
+	{% block head %}
+	
+    {% endblock %}
+
+	{% block content %}
+
+	<div class="containerIndex">
+
+		<img src="{{ url_for('static', filename='photos/PANTALLA_1.jpg')}}">
+
+		<button onclick="location.href = '/idioma'" class="btn1Si" ></button>
+			
+		<button onclick="location.href = '/idioma'" class="btn1No"></button>
+
+		<button onclick="location.href = '/'" class="btnHome" ></button>
+
+		
+	</div>
+	{% endblock %}

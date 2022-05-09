@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+	
+	{% block head %}
+
+	{% endblock %}
+
+	
+	{% block content %}
+
+	<div class="containerAunLaQuieres">
+
+		<img src="{{ url_for('static', filename='photos/PANTALLA_3_ES.jpg')}}">
+		<script src="{{ url_for('static', filename='javascript/kioskscript.js')}}"></script>
+
+		<button onclick="location.href = '/siLaQuieroCas'" id="boton3Si" class="btn3Si" ></button>
+
+		<button onclick="location.href = '/noLaQuieroCas'" id="boton3No" class="btn3No" ></button>
+
+		<button onclick="location.href = '/'" class="btnHome" ></button>
+
+	</div>
+
+	{% endblock %}

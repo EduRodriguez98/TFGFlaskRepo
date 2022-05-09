@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+	
+	{% block head %}
+
+	{% endblock %}
+
+
+	{% block content %}
+
+	<div class="containerIdioma">
+
+		<img src="{{ url_for('static', filename='photos/PANTALLA_2.jpg')}}">
+		<script src="{{ url_for('static', filename='javascript/kioskscript.js')}}"></script>
+
+		<button onclick="location.href = '/vidEus'" id="btn2Eus" class="btn2Eus"></button> 
+
+		<button onclick="location.href = '/vidCas'" id="btn2Cas" class="btn2Cas" ></button>
+
+		<button onclick="location.href = '/'" class="btnHome" ></button>
+
+	</div>
+
+	{% endblock %}
+	
+
+	

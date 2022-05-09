@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+	
+	{% block head %}
+
+	{% endblock %}
+
+	
+	{% block content %}
+
+	<div class="containerContinuar">
+
+		<img src="{{ url_for('static', filename='photos/PANTALLA_6_EUS.jpg')}}">
+		<script src="{{ url_for('static', filename='javascript/kioskscript.js')}}"></script>
+		
+		<button onclick="location.href = '/'" id="btnCont" class="btnCont" ></button>
+
+		<button onclick="location.href = '/'" class="btnHome" ></button>
+
+	</div>
+
+	{% endblock %}

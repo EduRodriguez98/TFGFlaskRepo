@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 4px;
+}
+.columnEuskera {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 400px;
+    float: left;
+    width: 50%;
+}
+
+.columnCastellano {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 400px;
+    float: left;
+    width: 50%;
+}
+
+.columnSi {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+}
+
+
+.columnNo {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+}
+
+
+body {background-color: black;}
+
+
+/*Index style */
+    .containerIndex {
+        position:relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerIndex img {
+        position:relative;
+        width: 1900px;
+        height: 1060px;
+    }
+
+    .containerIndex .btn1Si{
+        position:absolute;
+        width: 163px;
+        height: 155px;
+        top: 82.5%;
+        left: 58.2%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .containerIndex .btn1No{
+        position:absolute;
+        width: 163px;
+        height: 155px;
+        top: 82.5%;
+        left: 14%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-radius: 50%;
+        }
+
+    .containerIndex .btnHome{
+        position:absolute;
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+
+
+/*Idioma style */
+    .containerIdioma {
+        position:relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerIdioma img {
+        position:relative;
+        width: 1900px;
+        height: 1060px;
+    }
+
+    .containerIdioma .btn2Eus{
+        position:absolute;
+        width: 163px;
+        height: 155px;
+        top: 82.5%;
+        left: 58.2%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(58, 57, 57, 0.75);
+        outline: none;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .containerIdioma .btn2Cas{
+        position:absolute;
+        width: 163px;
+        height: 155px;
+        top: 82.5%;
+        left: 14%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(58, 57, 57, 0.75);
+        outline: none;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .containerIdioma .btnHome{
+        position:absolute;
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+
+/*AunLaQuieresCas style */
+    .containerAunLaQuieres {
+        position:relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerAunLaQuieres img {
+        position:relative;
+        width: 1900px;
+        height: 1060px;
+    }
+
+    .containerAunLaQuieres .btn3Si{
+        position:absolute;
+        width: 163px;
+        height: 155px;
+        top: 82.5%;
+        left: 58.2%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(58, 57, 57, 0.75);
+        outline: none;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .containerAunLaQuieres .btn3No{
+        position:absolute;
+        width: 163px;
+        height: 155px;
+        top: 82.5%;
+        left: 14%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(58, 57, 57, 0.75);
+        outline: none;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .containerAunLaQuieres .btnHome{
+        position:absolute;
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+
+/*Fashion style */
+    .containerContinuar {
+        position:relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerContinuar img {
+        position:relative;
+        width: 1900px;
+        height: 1060px;
+    }
+
+    .containerContinuar .btnCont{
+        position:absolute;
+        width: 163px;
+        height: 155px;
+        top: 82.5%;
+        left: 58.2%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(58, 57, 57, 0.75);
+        outline: none;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .containerContinuar .btnHome{
+        position:absolute;
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .containerBlack{
+        background-color: black;
+    }
+
+    .containerBlack .btn1Black{
+        position:absolute;
+        width: 80px;
+        height: 80px;
+        top: 5%;
+        left: 5%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        outline: none;
+        border: white;
+    }

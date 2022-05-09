@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+	
+
+	{% block content %}
+	 
+	<!-- <iframe src="{{ url_for('static', filename='videos/silentvideo.mp4') }}" type="video/mp4" allow="autoplay" id="video" style="display:none"></iframe> -->
+	 <video id="vid1CAS" width="1900" height="1060" controls> 
+		 <source src="{{ url_for('static', filename='videos/ES VÍDEO MÁQUINA FASHION REVOLUTION VF.mp4') }}" type="video/mp4">
+		video not supported
+	</video>
+	
+	<script type='text/javascript'>
+		document.getElementById('vid1CAS').addEventListener('ended',myHandler,false);
+		function myHandler(e) {
+			window.location.href = '/aunQuieresCas';
+		}
+	</script>
+
+	{% endblock %}
